@@ -1,0 +1,23 @@
+body {
+    font-family: 'Roboto', sans-serif !important;
+}
+
+.slider-titulo {
+    color: #2c003e;
+    font-weight: 700;
+}
+
+.slider-sub{
+    color: #512b58;
+    font-weight: 400;
+}
+
+.img-cover {
+    position: relative;
+    bottom: 10vh;
+    border: 1px solid black;
+}
+
+.heading {
+    margin-top: 2vh;
+  }
