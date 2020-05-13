@@ -21,3 +21,23 @@ body {
 .heading {
     margin-top: 2vh;
   }
+
+.for-slick-slider {
+    display: flex;
+}
+
+.for-slick-slider {
+    display: flex;
+}
+
+.for-slick-slider .items {
+    width: 350px;
+    height: 250px;
+    margin: 30px;
+}
+
+.for-slick-slider .items img {
+    width: 350px;
+    height: 350px;
+    margin:30px;
+}
