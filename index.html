@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/slick-theme.css">
-    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl.theme.default.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <title>RadioGX</title>
 </head>
@@ -43,35 +43,70 @@
     </div>
    </div>
     <!--Album cover-->
-    <div class="for-slick-slider multiple-items">
-        <div class="items">
-            <img src="img/image.png" alt="">
-        </div>
-        <div class="items">
-            <img src="img/image.png" alt="">
-        </div>
-        <div class="items">
-            <img src="img/image.png" alt="">
-        </div>
-        <div class="items">
-            <img src="img/image.png" alt="">
-        </div>
-        
+    <div class="container">
+      <div class="row">
+        <div class="owl-carousel owl-theme">
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          <div class="item">
+            <img src="img/image.png" class="img-fluid" alt="">
+          </div>
+          
+          
+      </div>
+      </div>
     </div>
     <!--Categorias-->
     <!--Canciones-->
     <!--Programación-->
 
-    <script src="js/bootstrap.min.js"></script>
+    
     <script src="js/script.js"></script>
-    <script src="js/slick.js"></script>
     <script src="js/jquery-2.2.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
     <script type="text/javascript">
-        $(document).ready(function(){
-        $('.items').slick({
-            setting-name: setting-value
-        });
-        });
+      $('.owl-carousel').owlCarousel({
+    loop:true,
+    margin:10,
+    nav:true,
+    responsive:{
+        0:{
+            items:1
+        },
+        600:{
+            items:3
+        },
+        1000:{
+            items:6
+        }
+    }
+})
     </script>
 </body>
 </html>
