@@ -80,7 +80,6 @@ body {
 
 /**Calendar**/
 
-*/
 .clearfix::after,
 .calendar ol::after {
   content: ".";
@@ -89,6 +88,8 @@ body {
   clear: both;
   visibility: hidden;
 }
+
+
 
 .calendar {
     border-radius: 10px;
