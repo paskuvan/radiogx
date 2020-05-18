@@ -19,6 +19,12 @@ body {
     color:white !important;
 }
 
+.boton-primario {
+    color: #fff !important;
+    background-color: #2c003e !important;
+    border-color: #2c003e !important;
+} 
+
 .slider-titulo {
     color: #2c003e;
     font-weight: 700;
@@ -62,7 +68,7 @@ body {
 }
 
 .boton-calendario {
-    margin: 20px 0;
+    margin: 40px;
 }
 
 .card-deck {
