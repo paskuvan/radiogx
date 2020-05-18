@@ -4,6 +4,9 @@ body {
     
 }
 
+.color-oscuro {color: #2c003e;}
+.color-claro {color: #512b58;}
+
 .slider-titulo {
     color: #2c003e;
     font-weight: 700;
