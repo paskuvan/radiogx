@@ -7,6 +7,18 @@ body {
 .color-oscuro {color: #2c003e;}
 .color-claro {color: #512b58;}
 
+.card-footer {
+    padding: .75rem 1.25rem;
+    background-color: #2c003e !important;
+    border-top: 1px solid white !important;
+    text-align: center;
+    font-weight: 700;
+}
+
+.texto-blanco {
+    color:white !important;
+}
+
 .slider-titulo {
     color: #2c003e;
     font-weight: 700;
