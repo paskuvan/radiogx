@@ -217,3 +217,9 @@ body {
     height: 40px;
     background: url(../img/logo.png) left/contain no-repeat;
 }
+
+@media (max-width: 768px) {
+    #logo {
+        width: 170px;
+    }
+}
