@@ -210,3 +210,10 @@ body {
     padding-right: 60px;
     padding-top: 50px;
 }
+
+#logo {
+    float: left;
+    width: 350px;
+    height: 40px;
+    background: url(../img/logo.png) left/contain no-repeat;
+}
