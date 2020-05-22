@@ -211,11 +211,24 @@ body {
     padding-top: 50px;
 }
 
+.bg-negro {
+    background-color: black !important;
+}
+
+.navbar-light .navbar-nav .active>.nav-link, .navbar-light .navbar-nav .nav-link.active, .navbar-light .navbar-nav .nav-link.show, .navbar-light .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: white !important;
+}
+
+
 #logo {
     float: left;
-    width: 350px;
-    height: 40px;
-    background: url(../img/logo.png) left/contain no-repeat;
+    width: 400px;
+    height: 60px;
+    background: url(../img/logo-white.png) left/contain no-repeat;
 }
 
 @media (max-width: 768px) {
