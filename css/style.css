@@ -20,6 +20,13 @@ body {
     font-weight: 700;
 }
 
+.radio-player {
+    position: fixed;
+    z-index: 1000;
+    left: 0px;
+    right: 0px;
+}
+
 .texto-blanco {
     color:white !important;
 }
@@ -240,4 +247,9 @@ body {
     #logo {
         width: 170px;
     }
+}
+
+.audio {
+    position: -webkit-sticky;
+    position: sticky;
 }
