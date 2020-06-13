@@ -88,7 +88,7 @@ body {
 }
 
 #footer {
-    padding-bottom: 50px;
+    padding-bottom: 75px;
     background: #2c003e !important;
 }
 
@@ -252,4 +252,9 @@ body {
 .audio {
     position: -webkit-sticky;
     position: sticky;
+}
+
+.rf-player.player-17, .rf-player.player-17 .mobile-apps-store .apps-store-content, .rf-player.player-17 .rf-playing-info-item {
+    background: white !important;
+    font-size: 20px !important;
 }
