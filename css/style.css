@@ -247,6 +247,13 @@ body {
     #logo {
         width: 170px;
     }
+
+    .radiogx {
+        padding-bottom: 16% !important;
+        
+    }
+    
+
 }
 
 .audio {
@@ -258,3 +265,16 @@ body {
     background: white !important;
     font-size: 20px !important;
 }
+
+
+
+
+/* @media (min-width: 1120px) {
+    #radiogx {
+        padding: 0 !important;
+        width: 375px !important;
+        margin: 0 !important;
+    }
+
+    
+} */
