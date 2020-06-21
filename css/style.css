@@ -9,6 +9,7 @@ body {
     
 }
 
+
 .color-oscuro {color: #2c003e;}
 .color-claro {color: #512b58;}
 
@@ -248,10 +249,7 @@ body {
         width: 170px;
     }
 
-    .radiogx {
-        padding-bottom: 16% !important;
-        
-    }
+   
     
 
 }
