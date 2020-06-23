@@ -200,7 +200,7 @@ body {
 
 .festival-info h2 {
     color: #2c003e;
-    margin-top: 25px;
+    margin-top: 15px;
     font-size: 20px;
     font-weight: 700;
 }
@@ -249,7 +249,9 @@ body {
         width: 170px;
     }
 
-   
+    .festival-info h2 {
+        font-size: 13px;
+    }
     
 
 }
