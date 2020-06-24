@@ -66,6 +66,10 @@ body {
     display: block;
 }
 
+.descarga {
+    margin-top: -70px;
+}
+
 .margin-btm {
     margin-bottom: 20px;
 }
@@ -79,7 +83,7 @@ body {
 }
 
 .programar {
-    margin: 20px 0;
+    margin: 25px 0;
 }
 
 .boton-calendario {
@@ -254,6 +258,10 @@ body {
 
     .festival-info h2 {
         font-size: 13px;
+    }
+
+    .descarga {
+        margin-top: -3vh;
     }
     
 
