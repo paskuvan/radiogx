@@ -11,6 +11,11 @@ body {
 } 
 
 
+.no-padding {
+        padding: 0;
+        list-style-type: none;
+
+}
 
 .color-oscuro {color: #2c003e;}
 .color-claro {color: #512b58;}
@@ -151,6 +156,10 @@ body {
     margin-bottom: 30px;
 }
 
+.info-color {
+    background-color: white !important;
+}
+
 .festival-info:last-child {
 	margin-bottom:25px;
 }
@@ -162,6 +171,10 @@ body {
     margin-right: 25px;
     position: relative;
     overflow: hidden;
+}
+
+.info-app {
+    margin: 40px 0;
 }
 
 .image-overlay {
