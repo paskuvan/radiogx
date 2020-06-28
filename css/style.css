@@ -286,6 +286,13 @@ body {
         font-size: 11px;
     }
     
+    .lista {
+        margin-left: -40px;
+    }
+
+    .parrafo {
+        margin: 10px;
+    }
 
 }
 
